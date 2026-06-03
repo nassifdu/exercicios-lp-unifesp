@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &jogos);
 
     // ler pontuações
-    for(int i = 0; i <= MAX; i++) {
+    for(int i = 0; i < MAX; i++) {
         // placar de A
         int a;
         scanf("%d", &a);

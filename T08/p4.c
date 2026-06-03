@@ -6,7 +6,7 @@
 int main() {
 	int m, n;
 
-	// ler m e 
+	// ler m e n
 	scanf("%d %d", &m, &n);
 
 	// declarar matriz (m x n)

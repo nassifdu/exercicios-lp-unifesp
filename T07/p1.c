@@ -2,12 +2,15 @@
 #include <stdio.h>
 
 int main() {
-	int N, max = 0;
+	int N;
 
 	scanf("%d", &N);
 
-	for (int i = 0; i < N; i++) {
-		int x;
+	int max, x;
+
+	scanf("%d", &max); // primeiro elemento
+
+	for (int i = 1; i < N; i++) {
 		scanf("%d", &x);
 		if (x > max) {
 			max = x;
