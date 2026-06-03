@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main() {
-	int m, n, max = 0, max_i, max_j;
+	int m, n;
 
 	// ler m e n
 	scanf("%d %d", &m, &n);
@@ -18,6 +18,10 @@ int main() {
 			scanf("%d", &mat[i][j]);
 		}
 	}
+
+	// iniciar max e suas posições com o primeiro elemento
+	int max = mat[0][0];
+	int max_i = 0, max_j = 0;
 
 	// maior elemento: armazenar o maior valor até então
 	// e sua posição, e trocar se o atual for maior

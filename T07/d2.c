@@ -7,20 +7,17 @@ int main(){
     // numeradores e denominadores,
     // contador i = 0,
     // size (tamanho) inicial dos arrays
-    int N, n1 = 0, n2 = 1, d1 = 1, d2, i = 0, size = 2;
+    int N, i = 0, size = 2;
 
     // N máximo é 16; sequência tem até 2^N = 65536 elementos.
     int num[65536], den[65536];
 
     scanf("%d", &N);
 
-    // alpha vai de 0 a 1
-    d2 = N;
     num[0] = 0;
     num[1] = 1;
     den[0] = 1;
     den[1] = 1;
-
 
     // enquanto é possível criar frações:
     // (para quando não há mais uma fração

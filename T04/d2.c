@@ -3,7 +3,7 @@
 
 int main() {
     int qtd, final, alugadas, estragadas, repostas;
-    double aluguel, aluguelMultado, multa = 0.1;
+    double aluguel, multa = 0.1;
 
     scanf("%d %lf", &qtd, &aluguel);
 

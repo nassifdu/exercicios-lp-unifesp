@@ -1,10 +1,12 @@
 
+// soma das linhas
+
 #include <stdio.h>
 
 int main() {
 	int m, n;
 
-	// ler m e n
+	// ler m e 
 	scanf("%d %d", &m, &n);
 
 	// declarar matriz (m x n)
