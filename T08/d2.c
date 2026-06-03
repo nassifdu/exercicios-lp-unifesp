@@ -72,9 +72,9 @@ int main() {
 		}
 	}
 
-	// ler o número d de disparos
-	int d;
-	scanf("%d", &d);
+	// ler o número k de disparos
+	int k;
+	scanf("%d", &k);
 
 	// leremos e aplicaremos disparos e, após cada um, contaremos o número de barcos
 	// des (destruídos) inicia com 0; se bar < last_bar (diminuiu o nº de barcos), des++
@@ -83,16 +83,16 @@ int main() {
 	int last_bar = bar;
 
 	// for cada disparo (d vezes)
-	for (int i = 0; i < d; i++) {
-		// ler coordenadas (x e y são nomes arbitários;
-		// não são do plano cartesiano, mas sim índices)
+	for (int i = 0; i < k; i++) {
+		// ler coordenadas, corrigindo x-1 e y-1
 		int x, y;
 		scanf("%d %d", &x, &y);
 
 		// 1 (#) vira 0 (.)
-		tab[x][y] = 0;
+		tab[x-1][y-1] = 0;
 		bar = barcos(m, n, tab);
-		if (bar != last_bar) {
+
+		if (bar < last_bar) {
 			des++;
 		}
 		last_bar = bar;
