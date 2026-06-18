@@ -1,3 +1,6 @@
+
+// produto de matrizes
+
 #include <stdio.h>
 
 void lerMatriz(int m[3][3]) {

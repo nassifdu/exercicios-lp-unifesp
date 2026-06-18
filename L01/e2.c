@@ -1,3 +1,6 @@
+
+// inserir
+
 #include <stdio.h>
 
 void inserirOrdenado(int v[], int *n, int capacidade, int valor) {

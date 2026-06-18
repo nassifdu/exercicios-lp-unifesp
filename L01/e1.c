@@ -1,3 +1,6 @@
+
+// compactar
+
 #include <stdio.h>
 
 void compactarVetor(int v[], int *n) {

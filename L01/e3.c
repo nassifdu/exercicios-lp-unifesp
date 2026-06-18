@@ -1,3 +1,6 @@
+
+// estatísticas recursivas
+
 #include <stdio.h>
 
 int somaRec(int v[], int n) {
